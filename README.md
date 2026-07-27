@@ -26,7 +26,7 @@ The workflow uses the NOAA National Weather Service National Digital Forecast Da
 
 The dataset is accessed directly from NOAA using GDAL virtual file system capabilities without requiring manual downloads. The data has been displayed below.
 
-![Precipitation Animation](outputs/pop12_bands.gif)
+<img src="outputs/pop12_bands.gif" alt="Precipitation Animation" width="500"/>
 
 ---
 
@@ -42,7 +42,6 @@ The workflow consists of:
 6. Creating raster tiles and spatial indexes
 7. Querying and validating raster tiles using SQL
 8. Visualizing raster tile footprints using Folium
-9. Creating raster band animations for visual inspection
 
 ---
 
@@ -68,7 +67,11 @@ A custom spatial reference identifier (SRID 99000) is used to represent the NOAA
 The PostGIS raster tiles were queried and transformed for visualization in a web map environment.
 
 The interactive Folium map displays the spatial organization of the raster tiles stored in PostGIS.
-
 Interactive output:
 
-[Tile Footprint Visualization](outputs/tile_footprints_pop121.html)
+<div align="center">
+  <a href="tile_footprints_pop121.html">
+    <img src="https://github.com/Sandipriz/Sandipriz.github.io/raw/main/images/temperature_animation2.gif" alt="Map Preview" width="300" style="border: 2px solid black;"><br>
+    <b>🔍 Click to Open Interactive Tile Footprints Map</b>
+  </a>
+</div>
