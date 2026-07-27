@@ -69,6 +69,8 @@ A custom spatial reference identifier (SRID 99000) is used to represent the NOAA
 The PostGIS raster tiles were queried and transformed for visualization in a web map environment.
 
 The interactive Folium map displays the spatial organization of the raster tiles stored in PostGIS.
-Interactive output:
+The screenshot for the tile footprints is shown below: 
 
-[Open Interactive Tile Footprint Map](https://raw.githubusercontent.com/Sandipriz/Python-for-raster-handling-in-SQL/main/tile_footprints_pop121.html)
+<div align="center">
+  <img src="Folium screenshot.png" alt="PostGIS Raster Tile Footprint" width="600"/>
+</div>
