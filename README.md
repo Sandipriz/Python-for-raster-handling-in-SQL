@@ -71,4 +71,4 @@ The PostGIS raster tiles were queried and transformed for visualization in a web
 The interactive Folium map displays the spatial organization of the raster tiles stored in PostGIS.
 Interactive output:
 
-[Open Interactive Tile Footprint Map](https://raw.githubusercontent.com/Sandipriz/Python-for-raster-handling-in-SQL/main/tile_footprints_pop12.html)
+[Open Interactive Tile Footprint Map](https://raw.githubusercontent.com/Sandipriz/Python-for-raster-handling-in-SQL/main/tile_footprints_pop121.html)
