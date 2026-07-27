@@ -26,7 +26,9 @@ The workflow uses the NOAA National Weather Service National Digital Forecast Da
 
 The dataset is accessed directly from NOAA using GDAL virtual file system capabilities without requiring manual downloads. The data has been displayed below.
 
-<img src="outputs/pop12_bands.gif" alt="Precipitation Animation" width="500"/>
+<div align="center">
+  <img src="https://raw.githubusercontent.com/Sandipriz/Python-for-raster-handling-in-SQL/main/pop12_bands.gif" alt="NOAA Precipitation Animation" width="400"/>
+</div>
 
 ---
 
@@ -69,9 +71,4 @@ The PostGIS raster tiles were queried and transformed for visualization in a web
 The interactive Folium map displays the spatial organization of the raster tiles stored in PostGIS.
 Interactive output:
 
-<div align="center">
-  <a href="tile_footprints_pop121.html">
-    <img src="https://github.com/Sandipriz/Sandipriz.github.io/raw/main/images/temperature_animation2.gif" alt="Map Preview" width="300" style="border: 2px solid black;"><br>
-    <b>🔍 Click to Open Interactive Tile Footprints Map</b>
-  </a>
-</div>
+[Open Interactive Tile Footprint Map](https://raw.githubusercontent.com/Sandipriz/Python-for-raster-handling-in-SQL/main/tile_footprints_pop12.html)
