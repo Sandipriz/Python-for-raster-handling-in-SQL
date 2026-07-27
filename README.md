@@ -2,8 +2,6 @@
 Using SQL with Python for raster processing
 # NOAA GRIB to PostGIS Raster: Python Workflow
 
-![NOAA Precipitation Animation](outputs/pop12_bands.gif)
-
 ## Overview
 
 This project demonstrates a Python-based workflow for processing NOAA weather GRIB data, converting it into a geospatial raster format, storing it in PostgreSQL/PostGIS Raster, and visualizing the resulting raster tiles.
@@ -26,7 +24,9 @@ The workflow uses the NOAA National Weather Service National Digital Forecast Da
 - Spatial coverage: CONUS
 - Projection: NOAA Lambert Conformal Conic
 
-The dataset is accessed directly from NOAA using GDAL virtual file system capabilities without requiring manual downloads.
+The dataset is accessed directly from NOAA using GDAL virtual file system capabilities without requiring manual downloads. The data has been displayed below.
+
+![Precipitation Animation](outputs/pop12_bands.gif)
 
 ---
 
@@ -63,14 +63,6 @@ A custom spatial reference identifier (SRID 99000) is used to represent the NOAA
 
 ## Outputs
 
-### Raster Animation
-
-The GRIB dataset contains multiple raster bands. These bands were converted into an animated GIF to visualize changes across the dataset.
-
-![Precipitation Animation](outputs/pop12_bands.gif)
-
----
-
 ### Raster Tile Visualization
 
 The PostGIS raster tiles were queried and transformed for visualization in a web map environment.
@@ -79,8 +71,4 @@ The interactive Folium map displays the spatial organization of the raster tiles
 
 Interactive output:
 
-[Tile Footprint Visualization](outputs/tile_footprints_pop12.html)
-
----
-
-## Repository Structure
+[Tile Footprint Visualization](outputs/tile_footprints_pop121.html)
